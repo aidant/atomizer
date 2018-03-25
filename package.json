@@ -1,0 +1,22 @@
+{
+  "name": "atomizer",
+  "displayName": "Atomizer",
+  "description": "Inspired by Atom Material Syntax Dark (Atom) and Material Theme (Sublime Text)",
+  "publisher": "aidant",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Atomizer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/atomizer.json"
+      }
+    ]
+  }
+}
