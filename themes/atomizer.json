@@ -82,17 +82,21 @@
     {
       "name": "very-light-gray",
       "scope": [
-        "constant.other.object.key.js",
-        "string.unquoted.js",
+        "constant.other.object.key",
+        "string.unquoted",
         "variable",
         "string constant.other.placeholder",
         "constant.other.color",
         "text.html.markdown",
         "punctuation.definition.list_item.markdown",
-        "variable.other.object.js",
-        "variable.other.readwrite.js",
-        "support.type.object.module.js",
-        "support.type.object.process.js"
+        "variable.other.object",
+        "variable.other.readwrite",
+        "support.type.object.module",
+        "support.type.object.process",
+        "meta.object-literal.key",
+        "variable.other.readwrite.alias",
+        "meta.jsx.children",
+        "support.variable.property"
       ],
       "settings": {
         "foreground": "#DDDDDD"
@@ -135,11 +139,12 @@
         "entity.other.inherited-class",
         "markup.heading",
         "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label",
         "markup.inserted",
         "markdown.heading",
         "markup.heading | markup.heading entity.name",
-        "markup.heading.markdown punctuation.definition.heading.markdown"
+        "markup.heading.markdown punctuation.definition.heading.markdown",
+        "string.unquoted.plain.out.yaml"
       ],
       "settings": {
         "foreground": "#C3E88D"
@@ -174,27 +179,28 @@
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution",
-        "meta.delimiter.comma.js",
-        "keyword.operator.assignment.js",
-        "meta.brace.round.js",
-        "keyword.operator.comparison.js",
-        "keyword.operator.ternary.js",
+        "meta.delimiter.comma",
+        "keyword.operator.assignment",
+        "meta.brace.round",
+        "keyword.operator.comparison",
+        "keyword.operator.ternary",
         "meta.brace.square.open.flowtype",
         "meta.brace.square.end.flowtype",
-        "keyword.operator.logical.js",
+        "keyword.operator.logical",
         "meta.brace.curly.jsdoc",
-        "keyword.operator.new.js",
+        "keyword.operator.new",
         "string.regexp",
         "constant.character.escape",
-        "keyword.operator.arithmetic.js",
-        "meta.brace.curly.js",
-        "meta.brace.curly.litobj.js",
-        "meta.brace.square.js",
-        "keyword.operator.accessor.js",
-        "keyword.operator.expression.instanceof.js",
-        "keyword.operator.expression.typeof.js",
-        "keyword.operator.relational.js",
-        "keyword.operator.bitwise.js"
+        "keyword.operator.arithmetic",
+        "meta.brace.curly",
+        "meta.brace.curly.litobj",
+        "meta.brace.square",
+        "keyword.operator.accessor",
+        "keyword.operator.relational",
+        "keyword.operator.bitwise",
+        "keyword.operator.spread",
+        "keyword.operator.increment",
+        "keyword.operator.type.annotation"
       ],
       "settings": {
         "foreground": "#89DDF3"
@@ -208,7 +214,7 @@
         "variable.function",
         "support.function",
         "keyword.other.special-method",
-        "variable.other.property.js",
+        "variable.other.property",
         "support.type",
         "source.css support.type.property-name",
         "source.sass support.type.property-name",
@@ -216,16 +222,16 @@
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
         "source.postcss support.type.property-name",
-        "entity.name.method.js",
-        "meta.class-method.js entity.name.function.js",
+        "entity.name.method",
+        "meta.class-method.js entity.name.function",
         "variable.function.constructor",
         "source.sass keyword.control",
-        "tag.decorator.js entity.name.tag.js",
-        "tag.decorator.js punctuation.definition.tag.js",
+        "tag.decorator.js entity.name.tag",
+        "tag.decorator.js punctuation.definition.tag",
         "support.type.vendored.property-name.css",
-        "variable.other.object.property.js",
-        "new.expr.js support.variable.property.dom.js",
-        "meta.block.js support.variable.property.dom.js"
+        "variable.other.object.property",
+        "new.expr.js support.variable.property.dom",
+        "meta.block.js support.variable.property.dom"
       ],
       "settings": {
         "foreground": "#82AAFF"
@@ -248,12 +254,14 @@
         "entity.other.attribute-name",
         "markup.changed",
         "text.html.markdown markup.inline.raw.markdown",
-        "entity.other.attribute-name.class.css",
         "entity.name.tag.css",
         "entity.other.attribute-name.class",
         "punctuation.definition.group.regexp",
         "punctuation.definition.character-class.regexp",
-        "punctuation.definition.block.tag.jsdoc"
+        "punctuation.definition.block.tag.jsdoc",
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.expression.typeof",
+        "keyword.other.special-method.dockerfile"
       ],
       "settings": {
         "foreground": "#C792EA"
@@ -262,13 +270,15 @@
     {
       "name": "pink",
       "scope": [
-        "variable.language.this.js",
-        "keyword.operator.module.all.js",
-        "constant.language.undefined.js",
-        "constant.language.null.js",
+        "variable.language.this",
+        "keyword.operator.module.all",
+        "constant.language.undefined",
+        "constant.language.null",
         "invalid",
         "invalid.illegal",
-        "support.constant.property-value.css"
+        "support.constant.property-value.css",
+        "variable.language.super",
+        "constant.language.import-export-all"
       ],
       "settings": {
         "foreground": "#FF5370"
@@ -280,16 +290,16 @@
         "entity.name.tag",
         "meta.tag.sgml",
         "markup.deleted.git_gutter",
-        "meta.block variable.other",
         "support.other.variable",
         "string.other.link",
-        "entity.name.module.js",
-        "variable.import.parameter.js",
+        "entity.name.module",
+        "variable.import.parameter",
         "variable.language",
         "markup.deleted",
-        "source.js constant.other.object.key.js string.unquoted.label.js",
-        "constant.language.boolean.false.js",
-        "constant.language.boolean.true.js"
+        "source.js constant.other.object.key.js string.unquoted.label",
+        "constant.language.boolean.false",
+        "constant.language.boolean.true",
+        "support.class.component"
       ],
       "settings": {
         "foreground": "#F07178"
@@ -321,19 +331,24 @@
         "keyword.operator.accessor.jsdoc",
         "entity.name.function.method.inner.jsdoc",
         "support.type.builtin.primitive.jsdoc",
-        "variable.other.class.js",
-        "support.class.builtin.js",
-        "support.type.object.console.js",
-        "entity.name.class.js",
+        "variable.other.class",
+        "support.class.builtin",
+        "support.type.object.console",
+        "entity.name.class",
         "entity.name.class.jsdoc",
         "entity.name.type.instance.jsdoc",
-        "support.type.object.dom.js",
-        "support.type.object.node.js",
-        "support.class.console.js",
-        "entity.name.type.class.js",
-        "entity.name.type.js",
-        "entity.name.type.module.js",
-        "support.variable.dom.js"
+        "support.type.object.dom",
+        "support.type.object.node",
+        "support.class.console",
+        "entity.name.type.class",
+        "entity.name.type",
+        "entity.name.type.module",
+        "support.variable.dom",
+        "entity.other.attribute-name",
+        "support.constant.json",
+        "support.variable.object.process",
+        "support.type.object.module",
+        "support.variable.object.node"
       ],
       "settings": {
         "foreground": "#FFCB6B"
@@ -454,7 +469,7 @@
       "scope": [
         "comment",
         "punctuation.definition.comment",
-        "comment.block.js"
+        "comment.block"
       ],
       "settings": {
         "foreground": "#525252"
