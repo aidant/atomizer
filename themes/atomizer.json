@@ -104,7 +104,9 @@
     },
     {
       "name": "light-gray",
-      "scope": [],
+      "scope": [
+        "entity.name.tag.css"
+      ],
       "settings": {
         "foreground": "#B2CCD6"
       }
@@ -159,7 +161,10 @@
     },
     {
       "name": "light-teal",
-      "scope": [],
+      "scope": [
+        "support.type.property-name",
+        "support.type.vendored.property-name"
+      ],
       "settings": {
         "foreground": "#73D1C8"
       }
@@ -200,7 +205,11 @@
         "keyword.operator.bitwise",
         "keyword.operator.spread",
         "keyword.operator.increment",
-        "keyword.operator.type.annotation"
+        "keyword.operator.type.annotation",
+        "keyword.operator.rest",
+        "support.constant.property-value.css",
+        "keyword.operator.combinator",
+        "support.constant.font-name"
       ],
       "settings": {
         "foreground": "#89DDF3"
@@ -216,19 +225,12 @@
         "keyword.other.special-method",
         "variable.other.property",
         "support.type",
-        "source.css support.type.property-name",
-        "source.sass support.type.property-name",
-        "source.scss support.type.property-name",
-        "source.less support.type.property-name",
-        "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name",
         "entity.name.method",
         "meta.class-method.js entity.name.function",
         "variable.function.constructor",
         "source.sass keyword.control",
         "tag.decorator.js entity.name.tag",
         "tag.decorator.js punctuation.definition.tag",
-        "support.type.vendored.property-name.css",
         "variable.other.object.property",
         "new.expr.js support.variable.property.dom",
         "meta.block.js support.variable.property.dom"
@@ -254,8 +256,6 @@
         "entity.other.attribute-name",
         "markup.changed",
         "text.html.markdown markup.inline.raw.markdown",
-        "entity.name.tag.css",
-        "entity.other.attribute-name.class",
         "punctuation.definition.group.regexp",
         "punctuation.definition.character-class.regexp",
         "punctuation.definition.block.tag.jsdoc",
@@ -276,9 +276,9 @@
         "constant.language.null",
         "invalid",
         "invalid.illegal",
-        "support.constant.property-value.css",
         "variable.language.super",
-        "constant.language.import-export-all"
+        "constant.language.import-export-all",
+        "keyword.other.important"
       ],
       "settings": {
         "foreground": "#FF5370"
@@ -314,11 +314,9 @@
         "constant.character",
         "constant.escape",
         "variable.parameter",
-        "keyword.other.unit",
         "keyword.other",
         "meta.function.parameters.js variable",
-        "meta.function.parameters.js support.type",
-        "meta.property-value.css"
+        "meta.function.parameters.js support.type"
       ],
       "settings": {
         "foreground": "#F78C6A"
@@ -333,6 +331,7 @@
         "support.type.builtin.primitive.jsdoc",
         "variable.other.class",
         "support.class.builtin",
+        "support.class",
         "support.type.object.console",
         "entity.name.class",
         "entity.name.class.jsdoc",
@@ -348,7 +347,9 @@
         "support.constant.json",
         "support.variable.object.process",
         "support.type.object.module",
-        "support.variable.object.node"
+        "support.variable.object.node",
+        "support.constant.math",
+        "entity.other.attribute-name.class"
       ],
       "settings": {
         "foreground": "#FFCB6B"
@@ -359,14 +360,14 @@
       "scope": [
         "entity.name",
         "support.type",
-        "support.class",
         "support.orther.namespace.use.php",
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types",
         "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
+        "text.html.basic entity.other.attribute-name",
+        "keyword.other.unit"
       ],
       "settings": {
         "foreground": "#FFE082"
